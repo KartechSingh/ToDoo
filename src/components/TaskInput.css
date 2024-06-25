@@ -1,0 +1,43 @@
+.task-input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    font-size: 60px;
+    color: #55AD9B;
+    font-family: "outfit";
+}
+
+.text-input{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px;
+
+}
+.text-input input{
+    width: 400px;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #95D2B3;
+   background-color:#D8EFD3;
+   outline: none;
+}
+
+.text-input button{
+    border-style: solid;
+    border-color: #95D2B3;
+   background-color:#D8EFD3;
+   border-radius: 5px;
+   width: 60px;
+}
+
+
+@media(max-width:420px){
+    .text-input input{
+        width: 250px;
+    }
+}
